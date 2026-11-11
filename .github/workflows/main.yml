@@ -31,9 +31,7 @@ jobs:
     env:
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/test_db
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  
 
       # Replace the setup and migration steps below with your specific tech stack
       - name: Set up Node.js
